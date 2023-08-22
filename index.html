@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>cadastro Jquery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="card">
+        <h1>Registrar</h1>
+        <div class="textfield">
+            <label for="text">Digite seu nome completo:</label>
+            <input type="text" required name="nome" placeholder="Nome Completo">
+        </div>
+        <div class="textfield">
+            <label for="text">Digite seu CPF:</label>
+            <input type="text" class="no-spinners" required name="cpf" id="cpf" placeholder="Digite seu CPF">
+        </div>
+        <div class="textfield">
+            <label for="text">Digite seu E-mail:</label>
+            <input type="email" required name="email" placeholder="Digite seu E-mail">
+        </div>
+        <div class="textfield">
+            <label for="text">Digite seu telefone:</label>
+            <input type="tel" required name="telefone" id="telefone" placeholder="Telefone">
+        </div>
+        <div class="textfield">
+            <label for="text">Digite seu endereço completo:</label>
+            <input type="text" required name="end" placeholder="Endereço Completo">
+        </div>
+        <div class="textfield">
+            <label for="text">Digite seu CEP:</label>
+            <input type="text" class="no-spinners" required name="cep" id="cep" placeholder="Digite seu CEP">
+        </div>
+        <button type="submit">Enviar</button>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
